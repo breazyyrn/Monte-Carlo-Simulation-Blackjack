@@ -1,0 +1,53 @@
+ a Card, a Deck, a Hand, and Game(Blackjack).
+
+Text-Based game
+
+2 Players (The player & the house)
+
+An Ace is worth 11 points
+
+The player & the house should each receive two cards dealt from a deck
+
+Each player calculate the sum of the two cards dealt to them
+
+Choose either to hit or stand (Maybe if statement for this)
+
+If the player chooses to hit, then if the new value of their hand is greater than 21, 
+the player loses (buss) and the game is over. 
+If the value is less than 21, the player repeats the process until they stand or bust.
+
+If the player doesn't bust, the dealer plays
+The dealer will continue to take a card(hit) until the value of their
+hand is 17 or greater
+If the dealer busts, then the player wins.
+
+If player and dealer both avoided a bust, then the hand with the highest value wins the game. If both hands are of equal value
+then the hand is a tie(push)
+
+Deck is usually not rebuilt and shuffled
+between each game isntead it's only rebuilt
+once the amount of cards left in the list is
+less than a certain number of cards
+
+public class Card() {
+	 public Card(int v) {
+	int value = ThreadLocalRandom 
+        .current()
+        .nextInt(1, 11);
+        
+	public int getValue() {
+		return value;
+	
+	public String toString() {
+		Get a list of card values and their corresponding card name
+such as "ACE" etcc.
+
+public hand class() {
+
+
+
+		
+
+
+
+
